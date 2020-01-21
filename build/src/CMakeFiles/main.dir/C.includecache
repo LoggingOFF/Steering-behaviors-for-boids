@@ -1,0 +1,94 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/glfw-3.3/deps/glad/gl.h
+winapifamily.h
+-
+glad/khrplatform.h
+-
+
+../libs/glfw-3.3/deps/glad/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../libs/glfw-3.3/deps/glad/vk_platform.h
+stddef.h
+-
+stdint.h
+-
+
+../libs/glfw-3.3/deps/glad/vulkan.h
+winapifamily.h
+-
+glad/vk_platform.h
+-
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/getopt.c
+getopt.h
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/getopt.h
+stddef.h
+-
+string.h
+-
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/getopt.h
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/glad_gl.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/gl.h
+-
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/glad_vulkan.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/vulkan.h
+-
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/tinycthread.c
+tinycthread.h
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/tinycthread.h
+stdlib.h
+-
+signal.h
+-
+sched.h
+-
+unistd.h
+-
+sys/time.h
+-
+errno.h
+-
+process.h
+-
+sys/timeb.h
+-
+
+C:/Users/Sakari/Documents/code/C++/Project own git/steering-behaviours-2019-2/libs/glfw-3.3/deps/tinycthread.h
+time.h
+-
+sys/time.h
+-
+pthread.h
+-
+windows.h
+-
+
