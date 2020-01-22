@@ -3,4 +3,4 @@ Currently configured for windows. To run the simulation navigate to build folder
 (Note main must be run with the build folder as root).
 
 # Disclaimer
-While this contents of src/core/ is something completed primarily by myself, other portions have been completed with collaboration with others/little work by me.
+While the contents of src/core/ is something completed primarily by myself, other portions have been completed in collaboration with others/includes only little work by me.
